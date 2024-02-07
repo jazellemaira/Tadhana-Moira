@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto:wght@400;900&family=Special+Elite&family=Vujahday+Script&display=swap");
+
 .main-header {
-    background-color: rgba(249, 223, 200, 0.7);
-    background-image: url(Images/header-background.jpg);
-    background-blend-mode: soft-light;
-    background-size: cover;
-    padding-bottom: 30px;
+  background-color: rgba(249, 223, 200, 0.7);
+  background-image: url(Images/header-background-daniel-olah-VS_kFx4yF5g-unsplash.jpg);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  padding-bottom: 30px;
 }
