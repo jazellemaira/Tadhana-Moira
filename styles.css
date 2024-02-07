@@ -1,0 +1,7 @@
+.main-header {
+    background-color: rgba(249, 223, 200, 0.7);
+    background-image: url(Images/header-background.jpg);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    padding-bottom: 30px;
+}
