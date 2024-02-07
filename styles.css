@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto:wght@400;900&family=Special+Elite&family=Vujahday+Script&display=swap");
 
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: #525151;
+}
+
 .main-header {
   background-color: rgba(249, 223, 200, 0.7);
   background-image: url(Images/header-background-daniel-olah-VS_kFx4yF5g-unsplash.jpg);
