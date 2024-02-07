@@ -6,6 +6,31 @@
   color: #525151;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: #161616;
+  text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 .main-header {
   background-color: rgba(249, 223, 200, 0.7);
   background-image: url(Images/header-background-daniel-olah-VS_kFx4yF5g-unsplash.jpg);
