@@ -48,3 +48,16 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   background-size: cover;
   padding-bottom: 30px;
 }
+
+.artist-name {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: Vujahday Script;
+    font-weight: normal;
+    color: #161616;
+}
+
+.artist-name-large {
+    font-size: 6em;
+}
