@@ -61,3 +61,21 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 .artist-name-large {
     font-size: 6em;
 }
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Protest Revolution;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
