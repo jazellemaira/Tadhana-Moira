@@ -25,11 +25,11 @@ function removeCartItem(event) {
 }
 
 function quantityChanged(event) {
-    var input = event.target
-    if (isNaN(input.value) || input.value <= 0) {
-        input.value = 1
-    }
-    updateCartTotal()
+  var input = event.target;
+  if (isNaN(input.value) || input.value <= 0) {
+    input.value = 1;
+  }
+  updateCartTotal();
 }
 
 function updateCartTotal() {
@@ -45,6 +45,13 @@ function updateCartTotal() {
     var price = parseFloat(priceElement.innerText.replace("₱", ""));
     var quantity = quantityElement.value;
     total = total + price * quantity;
+  }
+  total = Math.round(total * 100) / 100;
+  if (
+    String(total).split(".").length < 2 ||
+    String(total).split(".")[1].length <= 2
+  ) {
+    total = total.toFixed(2);
   }
   document.getElementsByClassName("cart-total-price")[0].innerText =
     "₱" + total;
