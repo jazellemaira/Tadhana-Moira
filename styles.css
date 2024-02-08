@@ -92,10 +92,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     color: #5b73bb;
     font-size: 4em;
     font-family: Vujahday Script;
-}
-
-.content-section-about:last-child {
-    margin-bottom: 60px;
+    line-height: .5;
 }
 
 .main-footer {
@@ -355,4 +352,11 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+.by-chat-gpt {
+    display: inline-block;
+    color: #5b73bb;
+    font-size: .8em;
+    margin-bottom: 60px;
 }
