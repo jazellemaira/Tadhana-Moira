@@ -115,12 +115,12 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    filter: invert(.9);
+    filter: saturate(1.5);
 }
 
 .footer-nav a:hover {
     border-radius: 50%;
-    background-color:rgba(222, 184, 135, .5);
+    background-color: rgba(91, 115, 187, .6);
 }
 
 .btn {
