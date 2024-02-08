@@ -29,7 +29,7 @@ function ready() {
 }
 
 function purchasedClicked() {
-  alert("Thank you for your purchase");
+  alert("\nThank you for your purchase. \n\n \u2665\u2665\u2665 \nIto ay tinadhana!");
   var cartItems = document.getElementsByClassName("cart-items")[0];
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);
@@ -69,7 +69,7 @@ function addItemToCart(imageSrc, title, price) {
   var cartItemNames = cartItems.getElementsByClassName("cart-item-title");
   for (var i = 0; i < cartItemNames.length; i++) {
     if (cartItemNames[i].innerText == title) {
-      alert("This item is already added to the cart");
+      alert("\nThis item is already added to the cart. \n\n \u02dc \nPatawad!");
       return;
     }
   }
