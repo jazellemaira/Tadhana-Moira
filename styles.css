@@ -87,3 +87,38 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     margin: 15px;
     border-radius: 50%;
 }
+
+.main-footer {
+    background-color:rgba(249, 223, 200, 0.6);
+    background-image: url(Images/footer-background.jpg);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    color: #161616;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .2em;
+}
+
+.footer-nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    filter: invert(.9);
+}
+
+.footer-nav a:hover {
+    border-radius: 50%;
+    background-color:rgba(222, 184, 135, .5);
+}
