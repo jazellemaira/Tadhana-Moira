@@ -165,6 +165,10 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     width: 80px;
 }
 
+.btn-play-container a {
+    text-decoration: none;
+}
+
 .tour-row {
     border-bottom: 1px solid black;
     padding-bottom: 1em;
