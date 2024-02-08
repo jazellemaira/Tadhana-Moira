@@ -225,6 +225,13 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 
 .shop-item-image {
     height: 250px;
+    transition: all .3s ease-in-out; 
+    padding-bottom: .7em;
+}
+
+.shop-item-image:hover {
+    filter: invert(1);
+    transform: scale(1.1); 
 }
 
 .shop-item-details {
