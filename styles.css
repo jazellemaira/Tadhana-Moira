@@ -88,6 +88,16 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 50%;
 }
 
+.content-section-about:first-of-type::first-letter{
+    color: #5b73bb;
+    font-size: 4em;
+    font-family: Vujahday Script;
+}
+
+.content-section-about:last-child {
+    margin-bottom: 60px;
+}
+
 .main-footer {
     background-color:rgba(249, 223, 200, 0.6);
     background-image: url(Images/footer-background.jpg);
