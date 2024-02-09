@@ -29,12 +29,14 @@ function ready() {
 }
 
 function purchasedClicked() {
-  alert("\nThank you for your purchase. \n\n \u2665\u2665\u2665 \nIto ay tinadhana!");
+  alert(
+    "\nThank you for your purchase. \n\n \u2665\u2665\u2665 \nIto ay tinadhana!"
+  );
   var cartItems = document.getElementsByClassName("cart-items")[0];
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);
   }
-  updateCartTotal()
+  updateCartTotal();
 }
 
 function removeCartItem(event) {
