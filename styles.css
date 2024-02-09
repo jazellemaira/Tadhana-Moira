@@ -140,9 +140,9 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 
 .btn-header {
     margin: .5em 15% 2em 15%;
-    color: #161616;
+    color: #333;
     border-color: #5b73bb;
-    background-color: rgba(91, 115, 187, 0.3);
+    background-color: rgba(127, 146, 202, .3);
     border-radius: 0;
     font-size: 1.5em;
     font-weight: lighter;
@@ -158,7 +158,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 .btn-play {
     display: block;
     margin: 0 auto;
-    color: #5b73bb;
+    color: #333;
     font-size: 3em;
     border-radius: 50%;
     padding: 0;
