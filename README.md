@@ -1,9 +1,8 @@
 <div align="center">
   <img src=https://github.com/jazellemaira/Tadhana-Moira/assets/42837484/c9fdcbcf-6772-40c0-b93c-b07694b29396 width="120" height="120">
-  
+
 # $\color{salmon}{Tadhana-Moira}$
 
-  <br />
   <img alt="Static Badge" src="https://img.shields.io/badge/jazellemaira-black?style=flat&label=Built%20with%20%E2%99%A5&labelColor=black&color=salmon">
   <br />
   <br />
@@ -23,6 +22,8 @@
 ## Preview
 
 $$\color{lightsalmon}{&ast;&ast;&ast;\ This\ preview\ recorded\ on\ an\ iPad\ is\ slighty\ off\ since\ this\ project\ was\ designed\ for\ larger\ devices. &ast;&ast;&ast;}$$ 
+
+  <br />
 
 https://github.com/jazellemaira/Tadhana-Moira/assets/42837484/09eb39f3-04b6-441c-a334-88b70f8a5fdf
 
