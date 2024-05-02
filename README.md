@@ -21,7 +21,9 @@
 
 ## Preview
 
-$$\color{lightsalmon}{&ast;&ast;&ast;\ This\ preview\ recorded\ on\ an\ iPad\ is\ slighty\ off\ since\ this\ project\ was\ designed\ for\ larger\ devices. &ast;&ast;&ast;}$$ 
+$$\color{lightsalmon}{&ast;&ast;&ast;\ This\ preview\ recorded\ on\ an\ iPad\ is\ slighty\ off\}$$ 
+
+$$\color{lightsalmon}{since\ this\ project\ was\ designed\ for\ larger\ devices. &ast;&ast;&ast;}$$ 
 
   <br />
 
